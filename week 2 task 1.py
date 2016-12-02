@@ -1,7 +1,9 @@
-def Reverse(string):
+def reverseString(string):
+    newstring = string.split()
+    print (newstring)
+    counter = len(newstring) -1
     
-    stringList = string.split(' ')
-    for i in range (len(stringList)):
-                
-    return (stringList)
-    
+    while counter != -1:
+        print(newstring[counter])
+        counter -= 1
+reverseString('my name is mir')
